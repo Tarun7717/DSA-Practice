@@ -1,0 +1,1 @@
+On day 2 of learning Java for DSA, I implemented a program to check if the person is Adult or a Minor using if-else condition
