@@ -1,23 +1,20 @@
-//Program to create a Solid rectangle pattern
-
-package Tarun_java.Day_04;
-import java.util.*;;
-
-public class paterns {
+package Tarun_java.Day_05;
+import java.util.*;
+public class InvertedHP {
     public static void main(String[] args){
-        int i,j,m,n;
         Scanner sc=new Scanner(System.in);
+        int i,j,m,n;
         System.out.println("Enter the number of rows and columns:");
         m=sc.nextInt();
         n=sc.nextInt();
 
-        for(i=0;i<m;i++){
-            for(j=0;j<n;j++){
+        for(i=m;i>=1;i--){
+            for(j=1;j<=i;j++){
                 System.out.print("* ");
             }
             System.out.println();
         }
-        
-        
+        sc.close();
     }
+    
 }
